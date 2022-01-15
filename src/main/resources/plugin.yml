@@ -1,0 +1,17 @@
+name: HelloWorld
+version: '1.0'
+main: me.doblegor.helloworld.HelloWorld
+api-version: 1.18
+authors: [ doblegor ]
+description: My first plugin:)
+website: https://github.com/Doblegor
+
+commands:
+  hola:
+    description: Send to the sender a welcome message
+    usage: hola
+    permission: hola.use
+permissions:
+  hola.use:
+    description: permission to users to the hola command
+    default: true
